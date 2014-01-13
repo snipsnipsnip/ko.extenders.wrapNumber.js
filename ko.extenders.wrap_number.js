@@ -1,7 +1,7 @@
 /**
- * Forces an number observable to be wrapped around the specified inclusive range [min, max].
- * If specified, options.onWrap will be called back when the 'wrapping' occurs
- * (i.e. the write attempt of the value out of the range).
+ * Forces a number observable to be wrapped around the specified inclusive range [min, max].
+ * Optionally, options.onWrap will be called back when 'wrap' occur
+ * (i.e. any write attempt of the value out of the range).
  * options.onWrap will be called with an argument false on underflow, or true on overflow.
  *
  * @param {ko.observable} target
